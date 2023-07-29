@@ -8,12 +8,14 @@
 #define BTNS_DX 5
 #define BTNS_M ((SCREEN_WIDTH - 3*BTN_W - 2*BTNS_DX)/2)
 
+// GUI Pages
 typedef enum {
     PET_PAGE,
     STATS_PAGE,
     ACTIONS_PAGE
 } gui_state_t;
 
+// Pet stats modifiers actions
 typedef enum {
   HAPPYNESS,
   HEALTH,
@@ -25,7 +27,7 @@ extern action_t selected_action;
 
 void guiRender();
 void guiSetup();
-void renderCircle();
+void renderPet();
 void renderBtns();
 void renderPet();
 void renderAtions();

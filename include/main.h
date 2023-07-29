@@ -10,9 +10,9 @@
 #define OLED_RESET     -1
 
 // Pin definitions
-#define BUTTON_PIN_1 11
+#define BUTTON_PIN_1 9
 #define BUTTON_PIN_2 10
-#define BUTTON_PIN_3 9
+#define BUTTON_PIN_3 11
 #define BUZZER_PIN 8
 
 extern bool button_prev_state_1;
